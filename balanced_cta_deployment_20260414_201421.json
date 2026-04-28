@@ -1,0 +1,372 @@
+{
+  "deployment_info": {
+    "system_name": "平衡型CTA策略部署系统",
+    "version": "1.0.0",
+    "target_return": "35%",
+    "expected_return": 0.37332104042817105,
+    "creation_time": "2026-04-14T20:14:21.267558",
+    "risk_profile": "中高风险平衡收益"
+  },
+  "configuration": {
+    "name": "平衡型CTA策略配置",
+    "target_return": "35%",
+    "expected_return": 0.37332104042817105,
+    "risk_level": "中高风险",
+    "style": "平衡成长，兼顾稳健",
+    "strategies": [
+      {
+        "strategy": "Breakout_Fast_Breakout",
+        "symbol": "ADAUSDT",
+        "weight": 0.13530698167451266,
+        "individual_return": 0.3152262080325134,
+        "contribution": 0.046089445167257395,
+        "component_type": "growth_oriented"
+      },
+      {
+        "strategy": "Momentum_Medium_Momentum",
+        "symbol": "ADAUSDT",
+        "weight": 0.12764495481649665,
+        "individual_return": 0.29541520390574966,
+        "contribution": 0.04074698252569029,
+        "component_type": "growth_oriented"
+      },
+      {
+        "strategy": "Breakout_Fast_Breakout",
+        "symbol": "ETHUSDT",
+        "weight": 0.12733055012138042,
+        "individual_return": 0.30242056202708933,
+        "contribution": 0.04161049552162943,
+        "component_type": "growth_oriented"
+      },
+      {
+        "strategy": "Momentum_Slow_Momentum",
+        "symbol": "ADAUSDT",
+        "weight": 0.11520370707865886,
+        "individual_return": 0.25820603981374923,
+        "contribution": 0.032143399582041945,
+        "component_type": "growth_oriented"
+      },
+      {
+        "strategy": "Momentum_Medium_Momentum",
+        "symbol": "ETHUSDT",
+        "weight": 0.10183408490426916,
+        "individual_return": 0.2169808778770287,
+        "contribution": 0.023876660438320933,
+        "component_type": "growth_oriented"
+      },
+      {
+        "strategy": "Breakout_Fast_Breakout",
+        "symbol": "BTCUSDT",
+        "weight": 0.07987793237879898,
+        "individual_return": 0.16642592379151103,
+        "contribution": 0.014365036939200191,
+        "component_type": "growth_oriented"
+      },
+      {
+        "strategy": "SuperMomentum_[3, 12, 0.008]",
+        "symbol": "BTCUSDT",
+        "weight": 0.04788868409281004,
+        "individual_return": 0.2033215690850535,
+        "contribution": 0.015782164696444112,
+        "component_type": "stability_focused"
+      },
+      {
+        "strategy": "AdvancedRSI_[7, 80, 20]",
+        "symbol": "ADAUSDT",
+        "weight": 0.060832034116220145,
+        "individual_return": 0.1664417736465024,
+        "contribution": 0.01641137196745337,
+        "component_type": "stability_focused"
+      },
+      {
+        "strategy": "AdvancedRSI_[21, 70, 30]",
+        "symbol": "ADAUSDT",
+        "weight": 0.049660504503042636,
+        "individual_return": 0.14134148640794592,
+        "contribution": 0.011377084838383065,
+        "component_type": "stability_focused"
+      },
+      {
+        "strategy": "MeanReversion_[15, 1.8]",
+        "symbol": "DOTUSDT",
+        "weight": 0.051094106041831726,
+        "individual_return": 0.13967286354447134,
+        "contribution": 0.011567328178236101,
+        "component_type": "stability_focused"
+      },
+      {
+        "strategy": "AdvancedRSI_[14, 75, 25]",
+        "symbol": "ADAUSDT",
+        "weight": 0.049498206713368055,
+        "individual_return": 0.13950008228632288,
+        "contribution": 0.011192166026579492,
+        "component_type": "stability_focused"
+      },
+      {
+        "strategy": "MeanReversion_[35, 2.5]",
+        "symbol": "ADAUSDT",
+        "weight": 0.05382825355861077,
+        "individual_return": 0.13288149642861827,
+        "contribution": 0.011593778925949884,
+        "component_type": "stability_focused"
+      }
+    ],
+    "position_sizing": "40%仓位",
+    "stop_loss": "12%",
+    "rebalance_frequency": "双周",
+    "monitoring": "重点监控",
+    "leverage": "不使用杠杆",
+    "diversification": "平衡分散，优化配置",
+    "composition": {
+      "growth_component": "60%",
+      "stability_component": "40%"
+    }
+  },
+  "position_management": {
+    "total_capital": 1000000,
+    "cash_reserve": 0.15,
+    "trading_capital": 850000.0,
+    "rebalance_buffer": 0.05,
+    "strategy_positions": [
+      {
+        "rank": 1,
+        "strategy": "Breakout_Fast_Breakout",
+        "symbol": "ADAUSDT",
+        "weight": 0.13530698167451266,
+        "allocation": 115010.93442333576,
+        "expected_return": 0.3152262080325134,
+        "component_type": "growth_oriented",
+        "risk_level": "中高"
+      },
+      {
+        "rank": 2,
+        "strategy": "Momentum_Medium_Momentum",
+        "symbol": "ADAUSDT",
+        "weight": 0.12764495481649665,
+        "allocation": 108498.21159402216,
+        "expected_return": 0.29541520390574966,
+        "component_type": "growth_oriented",
+        "risk_level": "中高"
+      },
+      {
+        "rank": 3,
+        "strategy": "Breakout_Fast_Breakout",
+        "symbol": "ETHUSDT",
+        "weight": 0.12733055012138042,
+        "allocation": 108230.96760317335,
+        "expected_return": 0.30242056202708933,
+        "component_type": "growth_oriented",
+        "risk_level": "中高"
+      },
+      {
+        "rank": 4,
+        "strategy": "Momentum_Slow_Momentum",
+        "symbol": "ADAUSDT",
+        "weight": 0.11520370707865886,
+        "allocation": 97923.15101686004,
+        "expected_return": 0.25820603981374923,
+        "component_type": "growth_oriented",
+        "risk_level": "中高"
+      },
+      {
+        "rank": 5,
+        "strategy": "Momentum_Medium_Momentum",
+        "symbol": "ETHUSDT",
+        "weight": 0.10183408490426916,
+        "allocation": 86558.9721686288,
+        "expected_return": 0.2169808778770287,
+        "component_type": "growth_oriented",
+        "risk_level": "中高"
+      },
+      {
+        "rank": 6,
+        "strategy": "Breakout_Fast_Breakout",
+        "symbol": "BTCUSDT",
+        "weight": 0.07987793237879898,
+        "allocation": 67896.24252197913,
+        "expected_return": 0.16642592379151103,
+        "component_type": "growth_oriented",
+        "risk_level": "中高"
+      },
+      {
+        "rank": 7,
+        "strategy": "SuperMomentum_[3, 12, 0.008]",
+        "symbol": "BTCUSDT",
+        "weight": 0.04788868409281004,
+        "allocation": 40705.381478888536,
+        "expected_return": 0.2033215690850535,
+        "component_type": "stability_focused",
+        "risk_level": "中等"
+      },
+      {
+        "rank": 8,
+        "strategy": "AdvancedRSI_[7, 80, 20]",
+        "symbol": "ADAUSDT",
+        "weight": 0.060832034116220145,
+        "allocation": 51707.228998787126,
+        "expected_return": 0.1664417736465024,
+        "component_type": "stability_focused",
+        "risk_level": "中等"
+      },
+      {
+        "rank": 9,
+        "strategy": "AdvancedRSI_[21, 70, 30]",
+        "symbol": "ADAUSDT",
+        "weight": 0.049660504503042636,
+        "allocation": 42211.42882758624,
+        "expected_return": 0.14134148640794592,
+        "component_type": "stability_focused",
+        "risk_level": "中等"
+      },
+      {
+        "rank": 10,
+        "strategy": "MeanReversion_[15, 1.8]",
+        "symbol": "DOTUSDT",
+        "weight": 0.051094106041831726,
+        "allocation": 43429.99013555697,
+        "expected_return": 0.13967286354447134,
+        "component_type": "stability_focused",
+        "risk_level": "中等"
+      },
+      {
+        "rank": 11,
+        "strategy": "AdvancedRSI_[14, 75, 25]",
+        "symbol": "ADAUSDT",
+        "weight": 0.049498206713368055,
+        "allocation": 42073.47570636285,
+        "expected_return": 0.13950008228632288,
+        "component_type": "stability_focused",
+        "risk_level": "中等"
+      },
+      {
+        "rank": 12,
+        "strategy": "MeanReversion_[35, 2.5]",
+        "symbol": "ADAUSDT",
+        "weight": 0.05382825355861077,
+        "allocation": 45754.01552481915,
+        "expected_return": 0.13288149642861827,
+        "component_type": "stability_focused",
+        "risk_level": "中等"
+      }
+    ]
+  },
+  "risk_management": {
+    "dynamic_stop_loss": {
+      "portfolio_level": "总回撤>12%时全面检查",
+      "component_level": "单组件回撤>8%时调整",
+      "strategy_level": "单策略回撤>6%时减仓",
+      "adaptive_mechanism": "根据市场波动率动态调整止损"
+    },
+    "balanced_position_control": {
+      "growth_component_limit": "≤65%总权重",
+      "stability_component_floor": "≥35%总权重",
+      "max_single_strategy": "15%",
+      "max_symbol_exposure": "45%",
+      "correlation_management": "高相关策略分组管理"
+    },
+    "rebalancing_framework": {
+      "regular_rebalancing": "每两周检查权重偏离",
+      "threshold_rebalancing": "权重偏离>8%时触发",
+      "performance_rebalancing": "组件表现差异>15%时评估",
+      "market_condition_rebalancing": "市场环境变化时调整"
+    },
+    "risk_budgeting": {
+      "growth_risk_budget": "60%风险预算",
+      "stability_risk_budget": "40%风险预算",
+      "volatility_target": "年化波动率<25%",
+      "drawdown_budget": "最大回撤预算12%"
+    }
+  },
+  "trading_signals": {
+    "ADAUSDT_Breakout_Fast_Breakout_growth": {
+      "timestamp": "2026-04-14T20:14:21.266550",
+      "symbol": "ADAUSDT",
+      "strategy": "Breakout_Fast_Breakout",
+      "component": "growth",
+      "direction": "BUY",
+      "signal_strength": 0.8934161768845567,
+      "confidence": 1.0,
+      "recommended_position": 0.12088544627343187,
+      "priority": "高"
+    },
+    "ADAUSDT_Momentum_Medium_Momentum_growth": {
+      "timestamp": "2026-04-14T20:14:21.266550",
+      "symbol": "ADAUSDT",
+      "strategy": "Momentum_Medium_Momentum",
+      "component": "growth",
+      "direction": "BUY",
+      "signal_strength": 0.7072783902611386,
+      "confidence": 0.8487340683133663,
+      "recommended_position": 0.09028051816756752,
+      "priority": "高"
+    },
+    "ETHUSDT_Breakout_Fast_Breakout_growth": {
+      "timestamp": "2026-04-14T20:14:21.266550",
+      "symbol": "ETHUSDT",
+      "strategy": "Breakout_Fast_Breakout",
+      "component": "growth",
+      "direction": "BUY",
+      "signal_strength": 0.5569029516707098,
+      "confidence": 0.6682835420048517,
+      "recommended_position": 0.070910759200452,
+      "priority": "中等"
+    },
+    "ADAUSDT_Momentum_Slow_Momentum_growth": {
+      "timestamp": "2026-04-14T20:14:21.266550",
+      "symbol": "ADAUSDT",
+      "strategy": "Momentum_Slow_Momentum",
+      "component": "growth",
+      "direction": "BUY",
+      "signal_strength": 0.6765233890521782,
+      "confidence": 0.8118280668626139,
+      "recommended_position": 0.07793800234422871,
+      "priority": "中等"
+    },
+    "BTCUSDT_SuperMomentum_[3, 12, 0.008]_stability": {
+      "timestamp": "2026-04-14T20:14:21.266550",
+      "symbol": "BTCUSDT",
+      "strategy": "SuperMomentum_[3, 12, 0.008]",
+      "component": "stability",
+      "direction": "BUY",
+      "signal_strength": 0.6359592475590115,
+      "confidence": 0.6995551723149127,
+      "recommended_position": 0.027409726352029207,
+      "priority": "中等"
+    },
+    "ADAUSDT_AdvancedRSI_[7, 80, 20]_stability": {
+      "timestamp": "2026-04-14T20:14:21.266550",
+      "symbol": "ADAUSDT",
+      "strategy": "AdvancedRSI_[7, 80, 20]",
+      "component": "stability",
+      "direction": "HOLD",
+      "signal_strength": 0.4422415159813751,
+      "confidence": 0.48646566757951265,
+      "recommended_position": 0.024212205889009138,
+      "priority": "低"
+    },
+    "ADAUSDT_AdvancedRSI_[21, 70, 30]_stability": {
+      "timestamp": "2026-04-14T20:14:21.266550",
+      "symbol": "ADAUSDT",
+      "strategy": "AdvancedRSI_[21, 70, 30]",
+      "component": "stability",
+      "direction": "BUY",
+      "signal_strength": 0.48701567525535944,
+      "confidence": 0.5357172427808954,
+      "recommended_position": 0.021766899720664014,
+      "priority": "低"
+    },
+    "DOTUSDT_MeanReversion_[15, 1.8]_stability": {
+      "timestamp": "2026-04-14T20:14:21.266550",
+      "symbol": "DOTUSDT",
+      "strategy": "MeanReversion_[15, 1.8]",
+      "component": "stability",
+      "direction": "HOLD",
+      "signal_strength": 0.359213163761699,
+      "confidence": 0.3951344801378689,
+      "recommended_position": 0.016518307932775905,
+      "priority": "低"
+    }
+  },
+  "performance_tracker": "\n📊 平衡型CTA策略绩效追踪器\n================================\n\n🎯 目标设定:\n• 年化收益目标: 35%\n• 预期实际收益: 37.33%\n• 风险平衡水平: 中高风险\n• 组合结构: 成长(60%) + 稳健(40%)\n\n📈 关键指标监控:\n┌──────────────┬─────────┬─────────┬─────────┐\n│     指标     │  目标值 │ 当前值  │  状态   │\n├──────────────┼─────────┼─────────┼─────────┤\n│   年化收益   │  >35%   │   --    │  待定   │\n│   最大回撤   │  <12%   │   --    │  待定   │\n│   夏普比率   │  >1.3   │   --    │  待定   │\n│   波动率    │  <25%   │   --    │  待定   │\n│ 成长组件收益  │  >40%   │   --    │  待定   │\n│ 稳健组件收益  │  >20%   │   --    │  待定   │\n└──────────────┴─────────┴─────────┴─────────┘\n\n⚖️ 平衡型特色:\n• 双组件动态平衡\n• 风险收益最优化\n• 适应性再平衡机制\n• 中长期稳健成长\n\n🎪 组合优势:\n• 兼顾成长与安全\n• 降低单一风险暴露\n• 适合大多数投资者\n• 心理承受力友好\n\n📊 监控重点:\n• 组件间平衡度\n• 再平衡时机把握\n• 市场环境适应性\n• 风险预算使用情况\n\n🔄 动态调整机制:\n• 双周定期检查\n• 偏离阈值触发\n• 市场变化响应\n• 绩效差异平衡\n",
+  "balance_analysis": "双组件平衡度分析已完成"
+}

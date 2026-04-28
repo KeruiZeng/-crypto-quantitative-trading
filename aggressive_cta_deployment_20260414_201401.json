@@ -1,0 +1,247 @@
+{
+  "deployment_info": {
+    "system_name": "激进型CTA策略部署系统",
+    "version": "1.0.0",
+    "target_return": "45%",
+    "expected_return": 0.4539686316300373,
+    "creation_time": "2026-04-14T20:14:01.356912",
+    "risk_profile": "高风险高收益"
+  },
+  "configuration": {
+    "name": "激进型CTA策略配置",
+    "target_return": "45%",
+    "expected_return": 0.4539686316300373,
+    "risk_level": "高风险",
+    "style": "集中持仓，追求最大收益",
+    "strategies": [
+      {
+        "strategy": "Breakout_Fast_Breakout",
+        "symbol": "ADAUSDT",
+        "weight": 0.14621070200642577,
+        "individual_return": 0.3152262080325134,
+        "contribution": 0.046089445167257395
+      },
+      {
+        "strategy": "Momentum_Medium_Momentum",
+        "symbol": "ADAUSDT",
+        "weight": 0.137931230305568,
+        "individual_return": 0.29541520390574966,
+        "contribution": 0.04074698252569029
+      },
+      {
+        "strategy": "Breakout_Fast_Breakout",
+        "symbol": "ETHUSDT",
+        "weight": 0.13759148929133386,
+        "individual_return": 0.30242056202708933,
+        "contribution": 0.04161049552162943
+      },
+      {
+        "strategy": "Momentum_Slow_Momentum",
+        "symbol": "ADAUSDT",
+        "weight": 0.12448740395549159,
+        "individual_return": 0.25820603981374923,
+        "contribution": 0.032143399582041945
+      },
+      {
+        "strategy": "Momentum_Medium_Momentum",
+        "symbol": "ETHUSDT",
+        "weight": 0.11004039006539895,
+        "individual_return": 0.2169808778770287,
+        "contribution": 0.023876660438320933
+      },
+      {
+        "strategy": "Breakout_Fast_Breakout",
+        "symbol": "BTCUSDT",
+        "weight": 0.08631489981810704,
+        "individual_return": 0.16642592379151103,
+        "contribution": 0.014365036939200191
+      },
+      {
+        "strategy": "Momentum_Medium_Momentum",
+        "symbol": "BTCUSDT",
+        "weight": 0.07155235044615549,
+        "individual_return": 0.12907550219871977,
+        "contribution": 0.00923565556733631
+      },
+      {
+        "strategy": "Momentum_Slow_Momentum",
+        "symbol": "BTCUSDT",
+        "weight": 0.06428686341097663,
+        "individual_return": 0.11884358683062164,
+        "contribution": 0.007640081433850714
+      }
+    ],
+    "position_sizing": "50%仓位",
+    "stop_loss": "15%",
+    "rebalance_frequency": "周度",
+    "monitoring": "密切监控",
+    "leverage": "不使用杠杆",
+    "diversification": "有限分散，集中优势"
+  },
+  "position_management": {
+    "total_capital": 1000000,
+    "cash_reserve": 0.1,
+    "trading_capital": 900000.0,
+    "strategy_positions": [
+      {
+        "rank": 1,
+        "strategy": "Breakout_Fast_Breakout",
+        "symbol": "ADAUSDT",
+        "weight": 0.14621070200642577,
+        "allocation": 131589.6318057832,
+        "expected_return": 0.3152262080325134,
+        "risk_level": "中高"
+      },
+      {
+        "rank": 2,
+        "strategy": "Momentum_Medium_Momentum",
+        "symbol": "ADAUSDT",
+        "weight": 0.137931230305568,
+        "allocation": 124138.1072750112,
+        "expected_return": 0.29541520390574966,
+        "risk_level": "中高"
+      },
+      {
+        "rank": 3,
+        "strategy": "Breakout_Fast_Breakout",
+        "symbol": "ETHUSDT",
+        "weight": 0.13759148929133386,
+        "allocation": 123832.34036220047,
+        "expected_return": 0.30242056202708933,
+        "risk_level": "中高"
+      },
+      {
+        "rank": 4,
+        "strategy": "Momentum_Slow_Momentum",
+        "symbol": "ADAUSDT",
+        "weight": 0.12448740395549159,
+        "allocation": 112038.66355994243,
+        "expected_return": 0.25820603981374923,
+        "risk_level": "中高"
+      },
+      {
+        "rank": 5,
+        "strategy": "Momentum_Medium_Momentum",
+        "symbol": "ETHUSDT",
+        "weight": 0.11004039006539895,
+        "allocation": 99036.35105885906,
+        "expected_return": 0.2169808778770287,
+        "risk_level": "中高"
+      },
+      {
+        "rank": 6,
+        "strategy": "Breakout_Fast_Breakout",
+        "symbol": "BTCUSDT",
+        "weight": 0.08631489981810704,
+        "allocation": 77683.40983629634,
+        "expected_return": 0.16642592379151103,
+        "risk_level": "中等"
+      },
+      {
+        "rank": 7,
+        "strategy": "Momentum_Medium_Momentum",
+        "symbol": "BTCUSDT",
+        "weight": 0.07155235044615549,
+        "allocation": 64397.11540153994,
+        "expected_return": 0.12907550219871977,
+        "risk_level": "中等"
+      },
+      {
+        "rank": 8,
+        "strategy": "Momentum_Slow_Momentum",
+        "symbol": "BTCUSDT",
+        "weight": 0.06428686341097663,
+        "allocation": 57858.17706987896,
+        "expected_return": 0.11884358683062164,
+        "risk_level": "中等"
+      }
+    ]
+  },
+  "risk_management": {
+    "stop_loss_rules": {
+      "individual_strategy": "单策略回撤>8%立即停止",
+      "portfolio_level": "组合回撤>15%全面止损",
+      "daily_limit": "单日亏损>3%暂停交易",
+      "consecutive_losses": "连续5个交易日亏损时风险评估"
+    },
+    "position_limits": {
+      "max_single_position": "20%",
+      "max_symbol_exposure": "60%",
+      "min_diversification": "至少4个不同交易对",
+      "correlation_limit": "相关性>0.8的策略总权重<30%"
+    },
+    "monitoring_alerts": {
+      "real_time": [
+        "价格突破止损位",
+        "策略信号强度<0.3",
+        "市场波动率>30%",
+        "交易量异常"
+      ],
+      "daily": [
+        "策略收益偏离预期>20%",
+        "组合夏普比率<1.0",
+        "回撤接近警戒线",
+        "相关性显著变化"
+      ]
+    },
+    "rebalancing_triggers": {
+      "time_based": "每周一进行权重检查",
+      "threshold_based": "权重偏离>5%时重新平衡",
+      "performance_based": "策略表现连续落后>2周时评估替换",
+      "market_based": "市场环境重大变化时调整"
+    }
+  },
+  "trading_signals": {
+    "ADAUSDT_Breakout_Fast_Breakout": {
+      "timestamp": "2026-04-14T20:14:01.356912",
+      "symbol": "ADAUSDT",
+      "strategy": "Breakout_Fast_Breakout",
+      "direction": "HOLD",
+      "signal_strength": 0.5360235745814177,
+      "confidence": 0.6968306469558431,
+      "recommended_position": 0.07837238313154281,
+      "urgency": "中等"
+    },
+    "ADAUSDT_Momentum_Medium_Momentum": {
+      "timestamp": "2026-04-14T20:14:01.356912",
+      "symbol": "ADAUSDT",
+      "strategy": "Momentum_Medium_Momentum",
+      "direction": "BUY",
+      "signal_strength": 0.6463969938910367,
+      "confidence": 0.8403160920583477,
+      "recommended_position": 0.0891583326332114,
+      "urgency": "中等"
+    },
+    "ETHUSDT_Breakout_Fast_Breakout": {
+      "timestamp": "2026-04-14T20:14:01.356912",
+      "symbol": "ETHUSDT",
+      "strategy": "Breakout_Fast_Breakout",
+      "direction": "BUY",
+      "signal_strength": 0.9496851378027189,
+      "confidence": 1.0,
+      "recommended_position": 0.1306685924681217,
+      "urgency": "高"
+    },
+    "ADAUSDT_Momentum_Slow_Momentum": {
+      "timestamp": "2026-04-14T20:14:01.356912",
+      "symbol": "ADAUSDT",
+      "strategy": "Momentum_Slow_Momentum",
+      "direction": "HOLD",
+      "signal_strength": 0.46249357133733954,
+      "confidence": 0.6012416427385414,
+      "recommended_position": 0.05757462404188935,
+      "urgency": "中等"
+    },
+    "ETHUSDT_Momentum_Medium_Momentum": {
+      "timestamp": "2026-04-14T20:14:01.356912",
+      "symbol": "ETHUSDT",
+      "strategy": "Momentum_Medium_Momentum",
+      "direction": "BUY",
+      "signal_strength": 0.7481301300838623,
+      "confidence": 0.972569169109021,
+      "recommended_position": 0.08232453133410587,
+      "urgency": "中等"
+    }
+  },
+  "performance_tracker": "\n📊 激进型CTA策略绩效追踪器\n================================\n\n🎯 目标设定:\n• 年化收益目标: 45%\n• 预期实际收益: 45.40%\n• 风险承受度: 高风险\n• 止损设置: 15%\n\n📈 关键指标监控:\n┌──────────────┬─────────┬─────────┬─────────┐\n│     指标     │  目标值 │ 当前值  │  状态   │\n├──────────────┼─────────┼─────────┼─────────┤\n│   年化收益   │  >45%   │   --    │  待定   │\n│   最大回撤   │  <15%   │   --    │  待定   │\n│   夏普比率   │  >1.5   │   --    │  待定   │\n│   胜率      │  >40%   │   --    │  待定   │\n└──────────────┴─────────┴─────────┴─────────┘\n\n🔥 激进型特色:\n• 高集中度持仓策略\n• 优选最强势交易对\n• 快速响应市场变化\n• 追求最大化收益\n\n⚠️ 风险提醒:\n• 高收益伴随高风险\n• 需要专业市场判断\n• 密切监控必不可少\n• 严格执行止损纪律\n"
+}

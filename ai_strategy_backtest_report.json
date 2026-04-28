@@ -1,0 +1,700 @@
+{
+  "timestamp": "2026-04-14T19:32:43.720222",
+  "ai_portfolio_return": 0.0807220835301397,
+  "baseline_portfolio_return": -0.003677237528156763,
+  "improvement": 0.08439932105829646,
+  "prediction_accuracy": 0.030581571639611557,
+  "detailed_results": {
+    "ai_strategies": [
+      {
+        "total_return": 0.03877997242014506,
+        "final_capital": 103877.9972420145,
+        "trade_count": 95,
+        "win_rate": 0.6,
+        "max_drawdown": 0.037369243895514354,
+        "trades": [
+          {
+            "timestamp": "2023-01-08 02:00:00",
+            "type": "OPEN",
+            "side": "SHORT",
+            "price": 1260.37,
+            "amount": 3020.0,
+            "signal": -1
+          },
+          {
+            "timestamp": "2023-01-20 16:00:00",
+            "type": "CLOSE",
+            "side": "CLOSE_SHORT",
+            "price": 1581.55,
+            "pnl_rate": -0.2548299308933092,
+            "capital": 99230.4136087022
+          },
+          {
+            "timestamp": "2023-01-20 16:00:00",
+            "type": "OPEN",
+            "side": "LONG",
+            "price": 1581.55,
+            "signal": 1
+          },
+          {
+            "timestamp": "2023-01-21 10:00:00",
+            "type": "CLOSE",
+            "side": "CLOSE_LONG",
+            "price": 1638.13,
+            "pnl_rate": 0.035775030824191555,
+            "capital": 99337.62273608978
+          },
+          {
+            "timestamp": "2023-01-21 10:00:00",
+            "type": "OPEN",
+            "side": "SHORT",
+            "price": 1638.13,
+            "signal": -1
+          }
+        ],
+        "equity_sample": [
+          {
+            "timestamp": "2023-01-07 14:00:00",
+            "capital": 100000,
+            "position": 0,
+            "price": 1264.31
+          },
+          {
+            "timestamp": "2023-05-03 04:00:00",
+            "capital": 100179.1723933286,
+            "position": 1,
+            "price": 1861.7
+          },
+          {
+            "timestamp": "2023-08-28 02:00:00",
+            "capital": 100806.45500815053,
+            "position": -1,
+            "price": 1651.45
+          },
+          {
+            "timestamp": "2023-12-23 14:00:00",
+            "capital": 102024.14198872325,
+            "position": 1,
+            "price": 2290.41
+          },
+          {
+            "timestamp": "2024-04-21 05:00:00",
+            "capital": 103300.85391088476,
+            "position": -1,
+            "price": 3184.79
+          },
+          {
+            "timestamp": "2024-08-18 08:00:00",
+            "capital": 103559.3286604264,
+            "position": 1,
+            "price": 2609.83
+          },
+          {
+            "timestamp": "2024-12-16 11:00:00",
+            "capital": 102513.17313950394,
+            "position": 1,
+            "price": 3945.81
+          },
+          {
+            "timestamp": "2025-04-14 00:00:00",
+            "capital": 101078.40056648263,
+            "position": 1,
+            "price": 1608.85
+          },
+          {
+            "timestamp": "2025-08-11 14:00:00",
+            "capital": 102025.04090797421,
+            "position": -1,
+            "price": 4270.6
+          },
+          {
+            "timestamp": "2025-12-05 01:00:00",
+            "capital": 102980.08618100773,
+            "position": -1,
+            "price": 3157.42
+          }
+        ],
+        "strategy_name": "AI_DualThrust_ETHUSDT",
+        "symbol": "ETHUSDT",
+        "type": "AI_Optimized"
+      },
+      {
+        "total_return": 0.09898448952695457,
+        "final_capital": 109898.44895269546,
+        "trade_count": 242,
+        "win_rate": 0.36363636363636365,
+        "max_drawdown": 0.037874336437470534,
+        "trades": [
+          {
+            "timestamp": "2023-01-08 09:00:00",
+            "type": "OPEN",
+            "side": "LONG",
+            "price": 16952.98,
+            "amount": 6980.0,
+            "signal": 1
+          },
+          {
+            "timestamp": "2023-01-18 16:00:00",
+            "type": "CLOSE",
+            "side": "CLOSE_LONG",
+            "price": 20715.81,
+            "pnl_rate": 0.22195684770465143,
+            "capital": 101549.25879697847
+          },
+          {
+            "timestamp": "2023-01-18 16:00:00",
+            "type": "OPEN",
+            "side": "SHORT",
+            "price": 20715.81,
+            "signal": -1
+          },
+          {
+            "timestamp": "2023-01-20 19:00:00",
+            "type": "CLOSE",
+            "side": "CLOSE_SHORT",
+            "price": 21376.04,
+            "pnl_rate": -0.031870827160511685,
+            "capital": 101323.35396747579
+          },
+          {
+            "timestamp": "2023-01-20 19:00:00",
+            "type": "OPEN",
+            "side": "LONG",
+            "price": 21376.04,
+            "signal": 1
+          }
+        ],
+        "equity_sample": [
+          {
+            "timestamp": "2023-01-07 18:00:00",
+            "capital": 100000,
+            "position": 0,
+            "price": 16930.76
+          },
+          {
+            "timestamp": "2023-05-01 14:00:00",
+            "capital": 102265.22982228795,
+            "position": -1,
+            "price": 28499.17
+          },
+          {
+            "timestamp": "2023-08-24 07:00:00",
+            "capital": 100217.05134768128,
+            "position": 1,
+            "price": 26459.95
+          },
+          {
+            "timestamp": "2023-12-21 23:00:00",
+            "capital": 101430.07588324476,
+            "position": 1,
+            "price": 43861.79
+          },
+          {
+            "timestamp": "2024-04-17 11:00:00",
+            "capital": 105550.08862330744,
+            "position": -1,
+            "price": 62903.34
+          },
+          {
+            "timestamp": "2024-08-18 14:00:00",
+            "capital": 107291.64981255498,
+            "position": 1,
+            "price": 59868.01
+          },
+          {
+            "timestamp": "2024-12-13 01:00:00",
+            "capital": 111579.51271908684,
+            "position": 1,
+            "price": 99808.01
+          },
+          {
+            "timestamp": "2025-04-12 17:00:00",
+            "capital": 110709.16641148437,
+            "position": 1,
+            "price": 84834.88
+          },
+          {
+            "timestamp": "2025-08-02 06:00:00",
+            "capital": 110443.15020027575,
+            "position": -1,
+            "price": 113548.69
+          },
+          {
+            "timestamp": "2025-11-30 08:00:00",
+            "capital": 113152.48691702698,
+            "position": 1,
+            "price": 91131.91
+          }
+        ],
+        "strategy_name": "AI_TurtleStrategy_BTCUSDT",
+        "symbol": "BTCUSDT",
+        "type": "AI_Optimized"
+      },
+      {
+        "total_return": 8.025297173502622e-05,
+        "final_capital": 100008.0252971735,
+        "trade_count": 3893,
+        "win_rate": 0.35242743385563835,
+        "max_drawdown": 0.00010979561264597058,
+        "trades": [
+          {
+            "timestamp": "2023-01-09 09:00:00",
+            "type": "OPEN",
+            "side": "LONG",
+            "price": 1317.48,
+            "amount": 10.0,
+            "signal": 1
+          },
+          {
+            "timestamp": "2023-01-10 00:00:00",
+            "type": "CLOSE",
+            "side": "CLOSE_LONG",
+            "price": 1322.48,
+            "pnl_rate": 0.0037951240246531254,
+            "capital": 100000.03795124024
+          },
+          {
+            "timestamp": "2023-01-10 00:00:00",
+            "type": "OPEN",
+            "side": "SHORT",
+            "price": 1322.48,
+            "signal": -1
+          },
+          {
+            "timestamp": "2023-01-10 02:00:00",
+            "type": "CLOSE",
+            "side": "CLOSE_SHORT",
+            "price": 1324.62,
+            "pnl_rate": -0.001618171919424016,
+            "capital": 100000.0217695149
+          },
+          {
+            "timestamp": "2023-01-10 02:00:00",
+            "type": "OPEN",
+            "side": "LONG",
+            "price": 1324.62,
+            "signal": 1
+          }
+        ],
+        "equity_sample": [
+          {
+            "timestamp": "2023-01-09 07:00:00",
+            "capital": 100000,
+            "position": 0,
+            "price": 1311.4
+          },
+          {
+            "timestamp": "2023-05-07 00:00:00",
+            "capital": 100003.44482723837,
+            "position": 1,
+            "price": 1896.84
+          },
+          {
+            "timestamp": "2023-09-01 05:00:00",
+            "capital": 100004.00605493889,
+            "position": -1,
+            "price": 1650.17
+          },
+          {
+            "timestamp": "2023-12-29 05:00:00",
+            "capital": 100001.12992505454,
+            "position": -1,
+            "price": 2347.9
+          },
+          {
+            "timestamp": "2024-04-26 06:00:00",
+            "capital": 99994.3074981971,
+            "position": -1,
+            "price": 3150.21
+          },
+          {
+            "timestamp": "2024-08-20 18:00:00",
+            "capital": 100000.87345087553,
+            "position": 1,
+            "price": 2593.67
+          },
+          {
+            "timestamp": "2024-12-15 18:00:00",
+            "capital": 100000.95895796735,
+            "position": 1,
+            "price": 3899.55
+          },
+          {
+            "timestamp": "2025-04-13 05:00:00",
+            "capital": 100005.18678243806,
+            "position": -1,
+            "price": 1608.71
+          },
+          {
+            "timestamp": "2025-08-09 05:00:00",
+            "capital": 100012.42761100366,
+            "position": 1,
+            "price": 4176.89
+          },
+          {
+            "timestamp": "2025-12-04 00:00:00",
+            "capital": 100008.33512638276,
+            "position": 1,
+            "price": 3179.69
+          }
+        ],
+        "strategy_name": "AI_RBreaker_ETHUSDT",
+        "symbol": "ETHUSDT",
+        "type": "AI_Optimized"
+      }
+    ],
+    "baseline_strategies": [
+      {
+        "total_return": -0.0367098491637985,
+        "final_capital": 96329.01508362015,
+        "trade_count": 114,
+        "win_rate": 0.42105263157894735,
+        "max_drawdown": 0.07718810706484071,
+        "trades": [
+          {
+            "timestamp": "2023-01-20 14:00:00",
+            "type": "OPEN",
+            "side": "SHORT",
+            "price": 1552.3,
+            "amount": 3330.0,
+            "signal": -1
+          },
+          {
+            "timestamp": "2023-02-01 13:00:00",
+            "type": "CLOSE",
+            "side": "CLOSE_SHORT",
+            "price": 1582.4,
+            "pnl_rate": -0.019390581717451612,
+            "capital": 99935.4293628809
+          },
+          {
+            "timestamp": "2023-02-01 13:00:00",
+            "type": "OPEN",
+            "side": "LONG",
+            "price": 1582.4,
+            "signal": 1
+          },
+          {
+            "timestamp": "2023-02-05 12:00:00",
+            "type": "CLOSE",
+            "side": "CLOSE_LONG",
+            "price": 1636.64,
+            "pnl_rate": 0.03427704752275026,
+            "capital": 100049.49822854811
+          },
+          {
+            "timestamp": "2023-02-05 12:00:00",
+            "type": "OPEN",
+            "side": "SHORT",
+            "price": 1636.64,
+            "signal": -1
+          }
+        ],
+        "equity_sample": [
+          {
+            "timestamp": "2023-01-08 03:00:00",
+            "capital": 100000,
+            "position": 0,
+            "price": 1261.36
+          },
+          {
+            "timestamp": "2023-04-30 11:00:00",
+            "capital": 100255.05166212104,
+            "position": 1,
+            "price": 1904.98
+          },
+          {
+            "timestamp": "2023-08-27 16:00:00",
+            "capital": 100220.54012609682,
+            "position": 1,
+            "price": 1655.11
+          },
+          {
+            "timestamp": "2023-12-22 06:00:00",
+            "capital": 100021.12762067813,
+            "position": 1,
+            "price": 2258.67
+          },
+          {
+            "timestamp": "2024-04-22 08:00:00",
+            "capital": 99968.66676699916,
+            "position": -1,
+            "price": 3214.34
+          },
+          {
+            "timestamp": "2024-08-20 09:00:00",
+            "capital": 99022.00539274864,
+            "position": -1,
+            "price": 2665.64
+          },
+          {
+            "timestamp": "2024-12-19 05:00:00",
+            "capital": 97371.69374915322,
+            "position": 1,
+            "price": 3666.55
+          },
+          {
+            "timestamp": "2025-04-18 17:00:00",
+            "capital": 97905.96907338176,
+            "position": -1,
+            "price": 1586.66
+          },
+          {
+            "timestamp": "2025-08-10 18:00:00",
+            "capital": 95028.30172385374,
+            "position": 1,
+            "price": 4227.56
+          },
+          {
+            "timestamp": "2025-12-07 01:00:00",
+            "capital": 94488.68656363699,
+            "position": -1,
+            "price": 3045.14
+          }
+        ],
+        "strategy_name": "Original_DualThrust_ETHUSDT",
+        "symbol": "ETHUSDT",
+        "type": "Baseline"
+      },
+      {
+        "total_return": 0.002051396521474671,
+        "final_capital": 100205.13965214747,
+        "trade_count": 508,
+        "win_rate": 0.3051181102362205,
+        "max_drawdown": 0.024514903691853544,
+        "trades": [
+          {
+            "timestamp": "2023-01-08 20:00:00",
+            "type": "OPEN",
+            "side": "LONG",
+            "price": 16958.74,
+            "amount": 3330.0,
+            "signal": 1
+          },
+          {
+            "timestamp": "2023-01-15 13:00:00",
+            "type": "CLOSE",
+            "side": "CLOSE_LONG",
+            "price": 20696.8,
+            "pnl_rate": 0.22042085673817732,
+            "capital": 100734.00145293814
+          },
+          {
+            "timestamp": "2023-01-15 13:00:00",
+            "type": "OPEN",
+            "side": "SHORT",
+            "price": 20696.8,
+            "signal": -1
+          },
+          {
+            "timestamp": "2023-01-16 03:00:00",
+            "type": "CLOSE",
+            "side": "CLOSE_SHORT",
+            "price": 21076.81,
+            "pnl_rate": -0.018360809400487132,
+            "capital": 100672.41117817065
+          },
+          {
+            "timestamp": "2023-01-16 03:00:00",
+            "type": "OPEN",
+            "side": "LONG",
+            "price": 21076.81,
+            "signal": 1
+          }
+        ],
+        "equity_sample": [
+          {
+            "timestamp": "2023-01-08 20:00:00",
+            "capital": 100000.0,
+            "position": 1,
+            "price": 16958.74
+          },
+          {
+            "timestamp": "2023-05-09 06:00:00",
+            "capital": 101079.20310562092,
+            "position": -1,
+            "price": 27467.22
+          },
+          {
+            "timestamp": "2023-09-01 05:00:00",
+            "capital": 99449.8749770588,
+            "position": -1,
+            "price": 26032.03
+          },
+          {
+            "timestamp": "2023-12-24 11:00:00",
+            "capital": 100496.03689676957,
+            "position": -1,
+            "price": 43591.89
+          },
+          {
+            "timestamp": "2024-04-18 14:00:00",
+            "capital": 100427.6560906247,
+            "position": 1,
+            "price": 63791.25
+          },
+          {
+            "timestamp": "2024-08-13 13:00:00",
+            "capital": 100224.48495130616,
+            "position": -1,
+            "price": 58971.51
+          },
+          {
+            "timestamp": "2024-12-08 02:00:00",
+            "capital": 101159.71002765484,
+            "position": 1,
+            "price": 100175.98
+          },
+          {
+            "timestamp": "2025-04-09 03:00:00",
+            "capital": 100105.48312649058,
+            "position": -1,
+            "price": 75334.04
+          },
+          {
+            "timestamp": "2025-08-03 10:00:00",
+            "capital": 99467.85165816067,
+            "position": -1,
+            "price": 113878.06
+          },
+          {
+            "timestamp": "2025-12-02 12:00:00",
+            "capital": 100536.98401750533,
+            "position": -1,
+            "price": 87386.61
+          }
+        ],
+        "strategy_name": "Original_TurtleStrategy_BTCUSDT",
+        "symbol": "BTCUSDT",
+        "type": "Baseline"
+      },
+      {
+        "total_return": 0.023615697302513727,
+        "final_capital": 102361.56973025137,
+        "trade_count": 4001,
+        "win_rate": 0.3454136465883529,
+        "max_drawdown": 0.02996962623587644,
+        "trades": [
+          {
+            "timestamp": "2023-01-07 18:00:00",
+            "type": "OPEN",
+            "side": "SHORT",
+            "price": 1262.88,
+            "amount": 3330.0,
+            "signal": -1
+          },
+          {
+            "timestamp": "2023-01-07 20:00:00",
+            "type": "CLOSE",
+            "side": "CLOSE_SHORT",
+            "price": 1263.5,
+            "pnl_rate": -0.000490941340428141,
+            "capital": 99998.36516533638
+          },
+          {
+            "timestamp": "2023-01-07 20:00:00",
+            "type": "OPEN",
+            "side": "LONG",
+            "price": 1263.5,
+            "signal": 1
+          },
+          {
+            "timestamp": "2023-01-08 05:00:00",
+            "type": "CLOSE",
+            "side": "CLOSE_LONG",
+            "price": 1262.33,
+            "pnl_rate": -0.0009259992085477426,
+            "capital": 99995.28163838331
+          },
+          {
+            "timestamp": "2023-01-08 05:00:00",
+            "type": "OPEN",
+            "side": "SHORT",
+            "price": 1262.33,
+            "signal": -1
+          }
+        ],
+        "equity_sample": [
+          {
+            "timestamp": "2023-01-07 18:00:00",
+            "capital": 100000.0,
+            "position": -1,
+            "price": 1262.88
+          },
+          {
+            "timestamp": "2023-05-06 03:00:00",
+            "capital": 99291.90252561381,
+            "position": -1,
+            "price": 1974.03
+          },
+          {
+            "timestamp": "2023-08-29 01:00:00",
+            "capital": 99664.30931445632,
+            "position": 1,
+            "price": 1655.61
+          },
+          {
+            "timestamp": "2023-12-21 09:00:00",
+            "capital": 99096.73660488987,
+            "position": 1,
+            "price": 2212.18
+          },
+          {
+            "timestamp": "2024-04-16 11:00:00",
+            "capital": 101012.01545922746,
+            "position": -1,
+            "price": 3088.29
+          },
+          {
+            "timestamp": "2024-08-15 07:00:00",
+            "capital": 102296.28559862312,
+            "position": -1,
+            "price": 2594.59
+          },
+          {
+            "timestamp": "2024-12-06 23:00:00",
+            "capital": 102048.29358141766,
+            "position": -1,
+            "price": 4012.0
+          },
+          {
+            "timestamp": "2025-04-05 05:00:00",
+            "capital": 101486.15997070006,
+            "position": 1,
+            "price": 1812.67
+          },
+          {
+            "timestamp": "2025-07-30 19:00:00",
+            "capital": 102599.8114192006,
+            "position": -1,
+            "price": 3723.89
+          },
+          {
+            "timestamp": "2025-11-26 07:00:00",
+            "capital": 102502.3258971521,
+            "position": -1,
+            "price": 2937.91
+          }
+        ],
+        "strategy_name": "Original_RBreaker_ETHUSDT",
+        "symbol": "ETHUSDT",
+        "type": "Baseline"
+      }
+    ],
+    "comparison": {
+      "ai_portfolio_return": 0.0807220835301397,
+      "baseline_portfolio_return": -0.003677237528156763,
+      "improvement": 0.08439932105829646,
+      "ai_individual": {
+        "AI_DualThrust_ETHUSDT": 0.03877997242014506,
+        "AI_TurtleStrategy_BTCUSDT": 0.09898448952695457,
+        "AI_RBreaker_ETHUSDT": 8.025297173502622e-05
+      },
+      "baseline_individual": {
+        "Original_DualThrust_ETHUSDT": -0.0367098491637985,
+        "Original_TurtleStrategy_BTCUSDT": 0.002051396521474671,
+        "Original_RBreaker_ETHUSDT": 0.023615697302513727
+      }
+    }
+  }
+}

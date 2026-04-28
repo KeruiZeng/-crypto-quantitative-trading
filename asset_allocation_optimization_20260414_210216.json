@@ -1,0 +1,40 @@
+{
+  "optimization_info": {
+    "name": "增强型CTA资产配置优化",
+    "version": "1.0",
+    "current_return": 0.6791,
+    "timestamp": "20260414_210216"
+  },
+  "optimization_options": [
+    {
+      "name": "当前配置",
+      "expected_return": 0.6791,
+      "description": "现有等权重配置",
+      "improvement": 0.0
+    },
+    {
+      "name": "表现优化",
+      "expected_return": 1.7651495500911603,
+      "description": "基于收益*夏普加权",
+      "improvement": 1.0860495500911602
+    },
+    {
+      "name": "夏普优化",
+      "expected_return": 1.248286433892733,
+      "description": "基于夏普比率加权",
+      "improvement": 0.569186433892733
+    },
+    {
+      "name": "平衡优化",
+      "expected_return": 1.1814741207060568,
+      "description": "资产均衡+内部优化",
+      "improvement": 0.5023741207060568
+    },
+    {
+      "name": "增强优化",
+      "expected_return": 1.4855822498083855,
+      "description": "增加新资产+全面优化",
+      "improvement": 0.8064822498083855
+    }
+  ]
+}
